@@ -1,0 +1,3 @@
+99 0
+fruit apple amount 99
+fruit orange amount 85
