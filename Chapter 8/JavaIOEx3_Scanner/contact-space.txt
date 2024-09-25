@@ -1,0 +1,4 @@
+ABC CITY_A abc@xyz.com 38
+LMN CITY_B lmn@xyz.com 39
+PQR CITY_C pqr@xyz.com 35
+DEF CITY_A def@xyz.com 37

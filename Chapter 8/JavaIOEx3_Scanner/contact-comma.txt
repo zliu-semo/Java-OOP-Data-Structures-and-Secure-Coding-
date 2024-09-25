@@ -1,0 +1,6 @@
+ABC  , CITY_A,abc@xyz.com, 38,
+LMN,       CITY_B, lmn@xyz.com, 39,
+PQR, CITY_C, pqr@xyz.com, 35,
+ANN  , CITY_A,ann@xyz.com,37,
+PAT, CITY_B, pat@xyz.com, 33,
+BOB , CITY_C, bob@xyz.com,36,
