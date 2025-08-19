@@ -14,8 +14,8 @@ public class JavaArrayEx3 {
         inputArray(weeklyHours);
 
         System.out.println("Enter the hourly pay rate: ");
-        Scanner in = new Scanner(System.in);
-        double payRate = in.nextDouble();
+        Scanner inVar = new Scanner(System.in);
+        double payRate = inVar.nextDouble();
         System.out.printf("The weekly pay is: %.2f\n", computePay(weeklyHours, payRate));
 
         // [Call your Knowledge check 1 method here.]
@@ -33,11 +33,11 @@ public class JavaArrayEx3 {
      * @param arr   an array of daily working hours to be assigned by user
      */
     public static void inputArray(int[] arr){
-        Scanner in = new Scanner(System.in);
+        Scanner inVar = new Scanner(System.in);
         for (int index = 0; index <= 6; index++)
         {
             System.out.println("Enter hours worked on day " + index);
-            arr[index] = in.nextInt();
+            arr[index] = inVar.nextInt();
         }
     }
 
@@ -96,7 +96,7 @@ public class JavaArrayEx3 {
     public static double[] computeDailyPay (int[] arr, double rate){
         int len = arr.length;
         double[] dailyPay = new double[len];
-        for (int index = 0; index <= len; index++)
+        for (int index = 0; index < len; index++)
         {
             if (arr[index] > 40)
                 dailyPay[index] = 40 * rate + (arr[index] - 40) * rate * 1.5;
@@ -119,4 +119,5 @@ public class JavaArrayEx3 {
     }
 
 }
+
 
